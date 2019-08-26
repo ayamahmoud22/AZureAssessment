@@ -1,0 +1,66 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "sites_SentiaARM_name": {
+            "value": null
+        },
+        "components_SentiaARM_name": {
+            "value": null
+        },
+        "availabilitySets_AvSet_name": {
+            "value": null
+        },
+        "networkInterfaces_nic0_name": {
+            "value": null
+        },
+        "networkInterfaces_nic1_name": {
+            "value": null
+        },
+        "serverfarms_appserviceplan_name": {
+            "value": null
+        },
+        "virtualMachines_BackendVM0_name": {
+            "value": null
+        },
+        "virtualMachines_BackendVM1_name": {
+            "value": null
+        },
+        "loadBalancers_loadbalancer2_name": {
+            "value": null
+        },
+        "publicIPAddresses_ipconfig1_name": {
+            "value": null
+        },
+        "publicIPAddresses_ipconfig2_name": {
+            "value": null
+        },
+        "storageAccounts_gcui5cyl2zbn4_name": {
+            "value": null
+        },
+        "virtualNetworks_virtualnetwork_name": {
+            "value": null
+        },
+        "alertrules_CPUHigh_appserviceplan_name": {
+            "value": null
+        },
+        "alertrules_ServerErrors_SentiaARM_name": {
+            "value": null
+        },
+        "alertrules_ForbiddenRequests_SentiaARM_name": {
+            "value": null
+        },
+        "alertrules_LongHttpQueue_appserviceplan_name": {
+            "value": null
+        },
+        "autoscalesettings_appserviceplan_ResourceGrp2_name": {
+            "value": null
+        },
+        "publicIPAddresses_LB_externalid": {
+            "value": null
+        },
+        "networkSecurityGroups_vm1_nsg_externalid": {
+            "value": null
+        }
+    }
+}
