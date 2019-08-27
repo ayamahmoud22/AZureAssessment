@@ -16,4 +16,4 @@ Resource group , storage account and app service created using this ARM template
 Deploy the all the resources to Azure 
 created load balancer between two virtual machines uisng the ARM template
 
-![Alt text](https://github.com/MicrosoftDocs/azure-docs/raw/master/articles/azure-resource-manager/media/vs-azure-tools-resource-groups-deployment-projects-create-deploy/select-project.png" Optional title")
+![Settings Window](https://github.com/MicrosoftDocs/azure-docs/blob/master/articles/azure-resource-manager/media/vs-azure-tools-resource-groups-deployment-projects-create-deploy/select-project.png)
