@@ -5,7 +5,7 @@ Also, Deployed: App Service Plan, Web App,Storage account
 The web application Idea is a photo Gallery hosts, views and deleles photos in URL : https://sentiaarm.azurewebsites.net/ from/in the storage account.
 
 
-##Deployment Steps##
+## Deployment Steps ##
 
 
 *1- Deployed the (App Service Plan, Web App,Storage account ) from Visual Studio Azure Resource Group.*
