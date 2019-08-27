@@ -31,7 +31,6 @@ Once you have selected the web app, click Publish
 For the AzureRM module script, use Visual Studio:
 
 On the shortcut menu of the deployment project node, choose Deploy > New.
-![Settings Window](https://i.ibb.co/4K3XTNy/VCDeploy.png)
 
 Then configure the targeted ResourceGroup
 ![Settings Window](https://i.ibb.co/vwJwb7k/VCDeploy2.png)
