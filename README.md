@@ -48,3 +48,6 @@ In Visual Studio Solution Explorer, right-click on the project name and select P
 
 Now, deploy the  2 Virtual Machines under an Internal Load balancer,also deploys a Storage Account, Virtual Network referencing a Public IP Address with 2 Network Interaces Cards In additonal to Availability Set.
 
+Edited the ARM template with the needed parameters then deploy it in the portal
+
+![Settings Window](https://i.ibb.co/mzQmbs4/Portal-ARM.png)
