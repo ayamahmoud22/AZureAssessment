@@ -19,7 +19,18 @@ Deployment Steps:
 3- Customize Resource Manager template "Paramaters, Variables"
 ![Settings Window](https://i.ibb.co/yStrK4z/VS.png)
 
+4- Deploy project to Azure
+For the AzureRM module script, use Visual Studio:
 
-Resource group , storage account and app service created using this ARM template 
-Deploy the all the resources to Azure 
-created load balancer between two virtual machines uisng the ARM template
+On the shortcut menu of the deployment project node, choose Deploy > New.
+![Settings Window](https://i.ibb.co/4K3XTNy/VCDeploy.png)
+
+Then configure the targeted ResourceGroup
+![Settings Window](https://i.ibb.co/vwJwb7k/VCDeploy2.png)
+
+After deploying
+![Settings Window](https://i.ibb.co/NstgQhy/Azure.png)
+
+
+Now, deploy the  2 Virtual Machines under an Internal Load balancer,also deploys a Storage Account, Virtual Network referencing a Public IP Address with 2 Network Interaces Cards In additonal to Availability Set.
+
