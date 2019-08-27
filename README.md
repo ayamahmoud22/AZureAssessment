@@ -19,6 +19,14 @@ Deployment Steps:
 3- Customize Resource Manager template "Paramaters, Variables"
 ![Settings Window](https://i.ibb.co/yStrK4z/VS.png)
 
+
+Using the Publish Website dialog, select Microsoft Azure Web Apps
+
+In the next dialog, either select an existing web app, or follow the prompts to create a new web application. Note: If you choose to create a web application, the Web App Name chosen must be globally unique.
+
+Once you have selected the web app, click Publish
+
+
 4- Deploy project to Azure
 For the AzureRM module script, use Visual Studio:
 
@@ -30,6 +38,12 @@ Then configure the targeted ResourceGroup
 
 After deploying
 ![Settings Window](https://i.ibb.co/NstgQhy/Azure.png)
+
+
+5- In the Web.config file of the custom "Photo Album" webApp, located in the project root, edited the StorageConnectionString app setting and replace the placeholder values with the values obtained in the StorageAccount just been created.
+
+In Visual Studio Solution Explorer, right-click on the project name and select Publish...
+![Settings Window](https://i.ibb.co/JCLNzZy/App-Con-String.png)
 
 
 Now, deploy the  2 Virtual Machines under an Internal Load balancer,also deploys a Storage Account, Virtual Network referencing a Public IP Address with 2 Network Interaces Cards In additonal to Availability Set.
