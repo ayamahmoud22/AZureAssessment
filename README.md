@@ -53,3 +53,6 @@ Edited the ARM template with the needed parameters with the public IP, NSG then 
 
 ***After successful deployment***
 ![Settings Window](https://i.ibb.co/BsYP1Dr/AzureRG.png)
+
+================
+![Settings Window](https://i.ibb.co/NK9FLQ4/WebSite.png)
