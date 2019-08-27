@@ -1,11 +1,11 @@
-# Azure Assessment using ARM Template
+## Azure Assessment using ARM Template
 
 Using ARM template, created 2 Virtual Machines under an Internal Load balancer,also deploys a Storage Account, Virtual Network referencing a Public IP Address with 2 Network Interaces Cards In additonal to Availability Set.
 Also, Deployed: App Service Plan, Web App,Storage account
 The web application Idea is a photo Gallery hosts, views and deleles photos in URL : https://sentiaarm.azurewebsites.net/ from/in the storage account.
 
 
-**Deployment Steps**
+##Deployment Steps##
 
 
 *1- Deployed the (App Service Plan, Web App,Storage account ) from Visual Studio Azure Resource Group.*
@@ -51,5 +51,5 @@ Edited the ARM template with the needed parameters with the public IP, NSG then 
 ![Settings Window](https://i.ibb.co/mzQmbs4/Portal-ARM.png)
 
 
-After successful deployment
+***After successful deployment***
 ![Settings Window](https://i.ibb.co/BsYP1Dr/AzureRG.png)
