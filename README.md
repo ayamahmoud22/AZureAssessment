@@ -8,12 +8,18 @@ The web application Idea is a photo Gallery hosts, views and deleles photos in U
 Deployment Steps:
 
 
-1- Deployed the (App Service Plan, Web App,Storage account ) from Visual Studio 
+1- Deployed the (App Service Plan, Web App,Storage account ) from Visual Studio Azure Resource Group.
 
+![Settings Window](https://github.com/MicrosoftDocs/azure-docs/raw/master/articles/azure-resource-manager/media/vs-azure-tools-resource-groups-deployment-projects-create-deploy/create-project.png)
+
+2- Selected "webApp" template from the Azure Resource Manager
+
+![Settings Window](https://github.com/MicrosoftDocs/azure-docs/raw/master/articles/azure-resource-manager/media/vs-azure-tools-resource-groups-deployment-projects-create-deploy/select-project.png)
+
+3- Customize Resource Manager template "Paramaters, Variables"
+![Settings Window](https://i.ibb.co/yStrK4z/VS.png)
 
 
 Resource group , storage account and app service created using this ARM template 
 Deploy the all the resources to Azure 
 created load balancer between two virtual machines uisng the ARM template
-
-![Settings Window](https://github.com/MicrosoftDocs/azure-docs/blob/master/articles/azure-resource-manager/media/vs-azure-tools-resource-groups-deployment-projects-create-deploy/select-project.png)
